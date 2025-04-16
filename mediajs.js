@@ -66,7 +66,7 @@ const handleClick = async function (e) {
       userId: "7325647133",
       created_at: Date.now(),
       utmLink: getUtmParams().ad,
-      leadIp: leadIp,
+      leadIp: leadIp.ip,
     }),
   });
 };
@@ -103,7 +103,7 @@ form.addEventListener('submit', async (e) => {
       userId: '7325647133',
       created_at: Date.now(),
       utmLink: getUtmParams().ad,
-      leadIp: leadIp,
+      leadIp: leadIp.ip,
     }),
   });
 });
