@@ -8,7 +8,8 @@ const mode = URI['prod'];
 const hendlebutton = document.querySelectorAll('.hendlebutton');
 const fomr = document.querySelector('#form');
 const links = {
-  whatsapp: 'https://wa.me/420722242996',
+  // whatsapp: 'https://wa.me/420722242996',
+  whatsapp: "https://api.whatsapp.com/send/?phone=6282396566088&text=",
 };
 
 const getIp = async () => {
